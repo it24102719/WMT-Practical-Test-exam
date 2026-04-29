@@ -4,34 +4,28 @@ setlocal enabledelayedexpansion
 cd /d "C:\Users\User\Downloads\project (1)\project"
 
 echo.
-echo === Initializing Git ===
+echo === Copy and paste these commands into your VS terminal ===
+echo.
+echo git init
 git init
 
-echo.
-echo === Setting Git config ===
-git config user.name "Developer"
-git config user.email "dev@example.com"
+echo git add README.md
+git add README.md
 
-echo.
-echo === Adding files ===
-git add .
+echo git commit -m "first commit"
+git commit -m "first commit"
 
-echo.
-echo === Committing files ===
-git commit -m "Initial commit: Item Manager MERN app"
-
-echo.
-echo === Renaming branch to main ===
+echo git branch -M main
 git branch -M main
 
-echo.
-echo === Adding GitHub remote ===
+echo git remote add origin https://github.com/it24102719/project-test.git
 git remote add origin https://github.com/it24102719/project-test.git
 
+echo git push -u origin main
+git push -u origin main
+
 echo.
-echo === Pushing to GitHub ===
-echo Push command ready. Use: git push -u origin main
-echo.
+echo === DONE ===
 echo Your repo: https://github.com/it24102719/project-test
 echo.
 pause

@@ -1,0 +1,13 @@
+backend/node_modules/
+frontend/node_modules/
+backend/dist/
+frontend/dist/
+backend/.env
+frontend/.env
+backend/vite-*.log
+frontend/vite-*.log
+*.log
+.DS_Store
+*.bat
+.idea/
+
